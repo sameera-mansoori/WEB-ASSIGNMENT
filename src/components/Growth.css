@@ -1,0 +1,88 @@
+    .mainagrowth {
+      min-height: 100vh; 
+    }
+    
+
+    .smallcardss {
+      height: 40vh;
+    }
+    
+    @media (max-width: 768px) {
+      .smallcardss {
+        height: auto; 
+      }
+      
+      .smallcardss img {
+        height: 7vh; 
+        width: auto;
+      }
+    }
+    
+    .textcards {
+        font-weight: 400;
+        font-size: 80px;
+      }
+      
+      .smallcardss {
+        padding-top: 10px;
+        overflow: hidden;
+        background-color: white;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .smallcardss:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      
+      .smallcardss img {
+        height: 10vh;
+        width: auto;
+        padding-left: 5px;
+        margin-left: 2%;
+        margin-top: 5px;
+      }
+      
+      .mainagrowth h3 {
+        color: rgb(214, 28, 90);
+      }
+      
+      .textcards:hover {
+      
+        color: rgb(9, 9, 9);
+      }
+      
+      .mainagrowth {
+        height: vh;
+        background-color: rgb(244, 241, 241);
+      }
+      
+      .third {
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+      }
+      
+      .row {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      h4.text {
+        padding-top: 1rem;
+      }
+      .feedback {
+        height: 60vh;
+        background-color: white;
+        padding-top: 70px;
+        
+      }
+      .feedback h3 {
+        color: rgb(214, 28, 90);
+      }
+      .feedback p{
+        margin-left:15vw ;
+        margin-right:15vw ;
+      }
+
+  
